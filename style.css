@@ -1,63 +1,104 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
+
 header{
-    background-color: rgb(211, 211, 211);
-    height: 80px;
+background-color: rgb(211, 211, 211);
+height: 80px;
 }
 .container video{
-   
 width: 100vw; 
 /* height: 30px; */
-
 }
 
 img{
-    width: 135px;
-    padding: 12px;
+width: 135px;
+padding: 12px;
 }
 header{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
+display: flex;
+flex-direction: column;
+justify-content: center;
+
 }
 
- a{
-    margin-top: -15%;
-     text-decoration: none; 
+a{
+margin-top: -15%;
+ text-decoration: none; 
 }
 .head h1{
-    margin: 3%;
-    text-align: center;
-    font-weight: normal;
+margin: 3%;
+text-align: center;
+font-weight: normal;
 }
 .head img{
-    margin-left: -9px;
-   width: 100vw;
+margin-left: -9px;
+width: 100vw;
 }
-.parent .trend{
-    display: flex;
-    flex-direction: column;
-}
+
 .trend h1 ,h4,h2 {
-    /* display: flex;
-    flex-direction: column; */
-    text-align: center;
-    font-weight: 100;
-    padding: 10px;
+/* display: flex;
+flex-direction: column; */
+text-align: center;
+font-weight: 100;
+padding: 10px;
 }
 .trend h2{
-    display: flex;
+display: flex;
 }
 .trend h4{
-    margin-top: 2%;
+margin-top: 2%;
 }
 .trend h1 {
-    /* font-weight: 100;
-    padding: 10px; */
-    word-spacing: 10px;
-    letter-spacing: 5px;
-    text-decoration: underline;
+/* font-weight: 100;
+padding: 10px; */
+word-spacing: 10px;
+letter-spacing: 5px;
+text-decoration: underline;
+}
+.trend .box{
+    display: flex;
+  /* column-gap: 4px; */
+  margin-top: 25px;
+  /* overflow: hidden; */
+}
+.item img{
+    width: 280px;
+   margin-left: 23px;
+}
+ .trend .box .item h5{
+    margin-left: 80px;
+}
+.main {
+    display: flex;
+}
+.main{
+    background-color: rgb(156, 115, 155);
+    height: 500px;
+}
+.main img{
+    width: 374px;
+    margin: -11px 15%;
+    /* height: 10px; */
+    /* margin-bottom:- 30%; */
+    
+}
+.cont h4{
+         text-decoration: underline;
+         margin-left: -25%;
+         font-weight: 100;
+         letter-spacing:4px;word-spacing: 1px;
+}
+.cont h3{
+    /* text-decoration: underline;
+    margin-left: -25%; */
+    font-size: 25px;
+    font-weight: 100;
+    letter-spacing:4px;
+    word-spacing: 3px;
+}
+.cont p{
+    /* text-decoration: underline;
+    margin-left: -25%; */
+    /* font-size: 25px; */
+    font-weight: 100;
+    letter-spacing:1px;
+    word-spacing: 1px;
 }
