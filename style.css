@@ -5,7 +5,7 @@
 }
 
 .header{
-background-color: rgb(223, 217, 217);
+background-color: rgb(194, 194, 194);
 height: 80px;
 width: 110%;
 /* position: fixed; */
@@ -21,7 +21,7 @@ justify-content:left;
 }
  a{
     padding: 12px;
-    color:rgb(65, 64, 64) ;
+    color:rgb(63, 63, 63) ;
     font-weight: 100; 
     letter-spacing: 2px; 
     font-size: 13px;
@@ -108,40 +108,95 @@ text-decoration: underline;
 .cont h4{
          text-decoration: underline;
          margin-top: 15%;
-         margin-left: -18%;
+         margin-left: -33%;
          font-weight: 100;
          letter-spacing:4px;word-spacing: 1px;
+        
 }
 .cont h3{
     /* text-decoration: underline; */
-    margin-left: -18%;
+    margin-left: -8%;
     font-size: 25px;
     font-weight: 100;
     letter-spacing:4px;
     word-spacing: 3px;
+    padding: 20px;
 }
 .cont p{
-    /* text-decoration: underline;
-    margin-left: -25%; */
+     /* text-decoration: underline; */
+    margin-left: -3%; 
     /* font-size: 25px; */
     font-weight: 100;
     letter-spacing:1px;
     word-spacing: 1px;
+    padding: 5px;
 }
 
-.a{
+.footer{
+    background-color: rgb(56, 54, 54);
+    width: 100%;
+    height: 500px;
+    margin-top: 4%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* margin-left: 2%; */
-    margin-top: -50px;
-    
-   }
-   .a .a1{
-    
-    font-size: 18px;
-    font-weight: 100;
-    /* padding-top: -80px; */
-    margin-top: -10%;
-   }
+ }
+ .footer h3{
+    color: white;
+    text-align: left;
+ }
+  li {
+    /* color: white; */
+    list-style: none;
+    padding: 8px;
+ }
+ a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 0.1px;
+    font-weight: normal;
+    font-size: 17px;
+   
+ }
+ .footer1{
+    margin-left: 4%;
+    margin-top: 3%;
+     }
+     .footer1 h3{
+        text-align: left;
+        color: white;
+        padding: 20px;
+        margin-left: -5px;
+         }
+         /* .footer2 a{
+            text-align: left;
+            color: white;
+             } */
+    .footer2{
+    margin-left: 65%;
+    margin-top: -22%;
+     }
+     .footer2 h3{
+        text-align: left;
+        color: white;
+        margin-left: 15px;
+        padding: 14px;
+     }
+  .footer2 li a{
+      text-decoration: underline;
+     }
+     .icon1{
+        
+        margin-top: 18%;
+        margin-left: 5%;
+     }
+      i{
+        padding: 1%;
+        color: white;
+     }
+     h5{
+        color: white;
+        margin-top: 2%;
+        margin-left: 6%;
+        font-weight: 100;
+        letter-spacing: 2px;
+     }
